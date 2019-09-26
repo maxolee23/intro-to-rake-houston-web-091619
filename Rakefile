@@ -1,15 +1,15 @@
-task :environment do 
+task :environment do
   require_relative './config/environment'
 end
 
 desc 'outputs hello to the terminal'
 
-namespace :greeting do 
-  task :hello do 
+namespace :greeting do
+  task :hello do
     puts "hello from Rake!"
-  end 
+  end
 
 desc 'outputs hola to the terminal'
-  task :hola do 
+  task :hola do
     puts "hola from Rake!"
   end
