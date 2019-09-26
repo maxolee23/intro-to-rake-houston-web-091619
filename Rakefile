@@ -1,8 +1,5 @@
-desc 'outputs hello to the terminal'
-task :hello do
-  puts "hello from Rake!"
+task :environment do 
+  require_relative './config/environment'
 end
 
-task :greeting do
-  puts 'hello from Rake!'
-end
+desc 'outputs hello to the terminal'
